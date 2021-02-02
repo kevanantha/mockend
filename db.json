@@ -1,5 +1,5 @@
 {
-    "Transaction": {
+    "transactions": {
         "data": [
             {
                 "id": "1",
@@ -57,7 +57,7 @@
             }
         ]
     },
-    "Detail": {
+    "details": {
         "data": [
             {
                 "type": "transaction_detail",
