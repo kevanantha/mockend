@@ -1,0 +1,88 @@
+{
+    "Transactions": {
+        "data": [
+            {
+                "id": "1",
+                "type": "transaction",
+                "attributes": {
+                    "id": 1,
+                    "status": "success",
+                    "virtual_account_id": "001992092112",
+                    "virtual_account_name": "pt ptan",
+                    "virtual_account_number": "9456435751",
+                    "virtual_account_bank": "bank jago",
+                    "order_id": "123123123",
+                    "creator_id": 1,
+                    "scheduled_at": null,
+                    "total_amount": "10000000.0",
+                    "created_at": "2021-01-26T08:03:50.000Z",
+                    "updated_at": "2021-01-26T08:03:50.000Z"
+                }
+            },
+            {
+                "id": "2",
+                "type": "transaction",
+                "attributes": {
+                    "id": 2,
+                    "status": "created",
+                    "virtual_account_id": "945694356345",
+                    "virtual_account_name": "pt fulan",
+                    "virtual_account_number": "9435643521",
+                    "virtual_account_bank": "bni",
+                    "order_id": "1234321",
+                    "creator_id": 1,
+                    "scheduled_at": null,
+                    "total_amount": "10000000.0",
+                    "created_at": "2021-01-26T08:03:50.000Z",
+                    "updated_at": "2021-01-26T08:03:50.000Z"
+                }
+            },
+            {
+                "id": "3",
+                "type": "transaction",
+                "attributes": {
+                    "id": 3,
+                    "status": "rejected",
+                    "virtual_account_id": "001973492542",
+                    "virtual_account_name": "pt mantap",
+                    "virtual_account_number": "5477382291",
+                    "virtual_account_bank": "baca",
+                    "order_id": "1234321",
+                    "creator_id": 1,
+                    "scheduled_at": null,
+                    "total_amount": "10000000.0",
+                    "created_at": "2021-01-26T08:03:50.000Z",
+                    "updated_at": "2021-01-26T08:03:50.000Z"
+                }
+            }
+        ]
+    },
+    "Details": {
+        "data": [
+            {
+                "type": "transaction_detail",
+                "id": 1,
+                "attributes": {
+                    "id": 1,
+                    "ref_number": 1,
+                    "beneficiary_name": "kevin",
+                    "beneficiary_account": "123123123",
+                    "beneficiary_bank": "krut",
+                    "status": "rejected"
+                }
+            },
+            {
+                "type": "transaction_detail",
+                "id": 2,
+                "attributes": {
+                    "id": 2,
+                    "ref_number": 2,
+                    "beneficiary_name": "anantha",
+                    "beneficiary_account": "321321321",
+                    "beneficiary_bank": "jago",
+                    "status": "success"
+                }
+            }
+        ]
+    }
+}
